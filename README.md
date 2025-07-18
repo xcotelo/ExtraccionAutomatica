@@ -29,18 +29,6 @@ Ferramenta en lotes (.bat) para extraer automaticamente arquivos comprimidos (.7
    - Eliminará os orixinais tras extraelos correctamente
 3. Revisa as mensaxes en pantalla para ver o progreso
 
-## Estrutura de Cartafoles
-
-o_directorio/
-│   extraer_automatico.bat
-│   arquivo1.zip
-│   arquivo2.rar
-│   ...
-└───extraidos/
-    │   contido_extraido1/
-    │   contido_extraido2/
-    │   ...
-
 ## Personalización
 
 Edita estas variables ao comezo do script se é necesario:
