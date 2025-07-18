@@ -24,7 +24,7 @@ Ferramenta en lotes (.bat) para extraer automaticamente arquivos comprimidos (.7
 
 1. Executa o arquivo .bat facendo dobre clic
 2. O script:
-   - Creará un cartafol 'extraidos'
+   - Creará un cartafol 'Extrated_files'
    - Extraerá todos os arquivos compatibles
    - Eliminará os orixinais tras extraelos correctamente
 3. Revisa as mensaxes en pantalla para ver o progreso
