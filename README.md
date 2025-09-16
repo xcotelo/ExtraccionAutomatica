@@ -34,7 +34,9 @@ Herramienta por lotes (.bat) para extraer automáticamente archivos comprimidos 
 Edita estas variables al comienzo del script si es necesario:
 
 set "sevenzip=C:\Program Files\7-Zip\7z.exe"
+
 set "winrar=C:\Program Files\WinRAR\WinRAR.exe"
+
 set "carpeta_destino=extraidos"
 
 ## Solución de Problemas
