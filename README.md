@@ -1,45 +1,45 @@
-# Ferramenta de Extracción Automatizada de Arquivos
+# Herramienta de Extracción Automatizada de Archivos
 
-Ferramenta en lotes (.bat) para extraer automaticamente arquivos comprimidos (.7z, .zip, .rar) e eliminalos despois dunha extracción exitosa.
+Herramienta por lotes (.bat) para extraer automáticamente archivos comprimidos (.7z, .zip, .rar) y eliminarlos después de una extracción exitosa.
 
-# Características Principais
+## Características Principales
 
 - ✔ Extracción automática de múltiples formatos (.7z, .zip, .rar)
-- ✔ Eliminación segura de arquivos despois de extraer
-- ✔ Diagnóstico detallado do proceso
-- ✔ Compatible con 7-Zip e WinRAR
-- ✔ Cartafol de saída organizado
+- ✔ Eliminación segura de archivos tras la extracción
+- ✔ Diagnóstico detallado del proceso
+- ✔ Compatible con 7-Zip y WinRAR
+- ✔ Carpeta de salida organizada
 
 ## Requisitos
 
-- 7-Zip instalado
-- WinRAR instalado
+- Tener instalado 7-Zip
+- Tener instalado WinRAR
 
 ## Instalación
 
-1. Descarga o script extraer_archivos.bat
-2. Colócao no cartafol cos teus arquivos comprimidos
+1. Descarga el script extraer_archivos.bat
+2. Colócalo en la carpeta con tus archivos comprimidos
 
 ## Uso
 
-1. Executa o arquivo .bat facendo dobre clic
-2. O script:
-   - Creará un cartafol 'Extrated_files'
-   - Extraerá todos os arquivos compatibles
-   - Eliminará os orixinais tras extraelos correctamente
-3. Revisa as mensaxes en pantalla para ver o progreso
+1. Ejecuta el archivo .bat haciendo doble clic
+2. El script:
+   - Creará una carpeta llamada 'Extrated_files'
+   - Extraerá todos los archivos compatibles
+   - Eliminará los originales tras extraerlos correctamente
+3. Revisa los mensajes en pantalla para ver el progreso
 
 ## Personalización
 
-Edita estas variables ao comezo do script se é necesario:
+Edita estas variables al comienzo del script si es necesario:
 
-- set "sevenzip=C:\Program Files\7-Zip\7z.exe"
-- set "winrar=C:\Program Files\WinRAR\WinRAR.exe"
-- set "carpeta_destino=extraidos"
+set "sevenzip=C:\Program Files\7-Zip\7z.exe"
+set "winrar=C:\Program Files\WinRAR\WinRAR.exe"
+set "carpeta_destino=extraidos"
 
 ## Solución de Problemas
 
-Se o script non funciona:
+Si el script no funciona:
 
-1. Comproba que 7-Zip/WinRAR estean instalados e que as rutas de onde estean instalados sexan correctas
-2. Executa como Administrador o script por se hai problemas de permisos
+1. Verifica que 7-Zip y WinRAR estén instalados y que las rutas sean correctas
+2. Ejecuta el script como Administrador por si hay problemas de permisos
